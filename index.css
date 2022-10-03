@@ -4,7 +4,7 @@
             margin: 0px;
         }
         
-        .Header {
+        .header {
             display: flex;
             justify-content: space-around;
             margin: 0 59px 0 59px;
@@ -20,8 +20,6 @@
             display: flex;
             list-style-type: none;
         }
-        
-        .nav__item {}
         
         .nav__link {
             text-decoration: none;
@@ -61,7 +59,7 @@
             color: white;
         }
         
-        .hero-section {
+        .medpage {
             /* margin-block-start: 10rem;
     margin-inline-start: 4rem; */
             block-size: 100vh;
@@ -70,12 +68,12 @@
             align-content: center;
         }
         
-        .hero-section--section1 {
+        .medpage--welcomepage {
             flex-direction: column;
             justify-content: center;
         }
         
-        .hero-section__welcome {
+        .medpage__welcome {
             font-family: 'Nunito Sans', sans-serif;
             font-weight: bold;
             font-size: 20px;
@@ -84,7 +82,7 @@
             padding-block-end: 1rem;
         }
         
-        .hero-section__cont {
+        .medpage__title {
             color: #252B42;
             /* font-size: 3rem; */
             margin: 0px;
@@ -99,7 +97,7 @@
             letter-spacing: 0.2px;
         }
         
-        .hero-section__p {
+        .medpage__subtitle {
             color: #737373;
             font-weight: 500;
             font-size: 20px;
@@ -107,7 +105,7 @@
             padding-block-end: 1rem;
         }
         
-        .button--bg-color {
+        .button--colorbackground {
             background-color: #1BA0AB;
             color: white;
         }
@@ -117,7 +115,7 @@
             border-width: thin;
         }
         
-        .hero-section--section2 {
+        .medpage--experts {
             background-color: white;
             flex-direction: row;
             justify-content: space-around;
@@ -129,7 +127,7 @@
             inline-size: 90%;
         }
         
-        hr {
+        .lineblock {
             inline-size: 20%;
             /* background-color: red; */
             border-width: thick;
@@ -139,7 +137,7 @@
             margin: 0px;
         }
         
-        .hero-section__cont--section2 {
+        .medpage__title--experts {
             font-size: 2rem;
         }
         
@@ -148,7 +146,7 @@
             font-size: 20px;
         }
         
-        .hero-section--cards {
+        .medpage--ourteam {
             background-color: white;
             display: flex;
             flex-direction: column;
@@ -157,7 +155,11 @@
             padding-block-end: 10rem;
         }
         
-        .hero-cards {
+        .medpage__title--smallfont {
+            font-size: 3rem;
+        }
+        
+        .medpage-cards {
             display: flex;
             align-items: center;
             justify-items: center;
@@ -192,20 +194,21 @@
             color: #1BA0AB;
         }
         
-        .hero-section--footer {
+        .medpage--footer {
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            padding-inline-start: 0;
         }
         
-        .hero-section__cont--footer {
+        .medpage__title--footer {
             font-size: 50px;
             font-weight: 800;
             margin: 0px;
         }
         
-        .hero-section__p--footer {
+        .medpage__subtitle--footer {
             text-align: center;
         }
         
@@ -239,31 +242,31 @@
             .buttons--spacebtn {
                 margin: 0px;
             }
-            .hero-section--section1 {
+            .medpage--welcomepage {
                 padding: 0px;
                 align-items: center;
             }
-            .hero-section__cont {
+            .medpage__title {
                 text-align: start;
                 font-size: 40px;
             }
-            .hero-section--section2 {
+            .medpage--ourteam {
                 flex-direction: column;
             }
-            .hero-section--cards {
+            .medpage--ourteam {
                 padding-inline-start: 1rem;
                 padding-block-end: 100rem;
             }
-            .hero-cards {
+            .medpage-cards {
                 flex-direction: column;
             }
             .card {
                 margin-block-end: 5rem;
             }
-            .hero-section--footer {
+            .medpage--footer {
                 align-items: start;
             }
-            .hero-section__p--footer {
+            .medpage__subtitle--footer {
                 text-align: start;
             }
             .buttons__input {
