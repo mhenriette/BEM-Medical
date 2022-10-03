@@ -233,7 +233,7 @@
         }
         
         @media only screen and (max-width: 480px) {
-            .Header {
+            .header {
                 margin: 0px;
             }
             .nav-list {
@@ -275,7 +275,7 @@
         }
         
         @media only screen and (max-width: 768px) {
-            .Header {
+            .header {
                 margin: 0px;
             }
             .nav-list {
