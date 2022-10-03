@@ -127,7 +127,7 @@
             inline-size: 90%;
         }
         
-        .lineblock {
+        .medpage__lineblock {
             inline-size: 20%;
             /* background-color: red; */
             border-width: thick;
@@ -159,7 +159,7 @@
             font-size: 3rem;
         }
         
-        .medpage-cards {
+        .medpage__cards {
             display: flex;
             align-items: center;
             justify-items: center;
