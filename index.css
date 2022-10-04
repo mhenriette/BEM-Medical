@@ -35,7 +35,7 @@
             align-items: center;
         }
         
-        .buttons--spacebtn {
+        .buttons--placespacebtn {
             margin-inline-start: 6rem;
         }
         /* .button:last-child {
@@ -110,7 +110,7 @@
             color: white;
         }
         
-        .button--border {
+        .button--placeborder {
             border-style: solid;
             border-width: thin;
         }
@@ -239,7 +239,7 @@
             .list-items {
                 display: none;
             }
-            .buttons--spacebtn {
+            .buttons--placespacebtn {
                 margin: 0px;
             }
             .medpage--welcomepage {
@@ -281,7 +281,7 @@
             .list-items {
                 display: none;
             }
-            .buttons--spacebtn {
+            .buttons--placespacebtn {
                 margin: 0px;
             }
         }
