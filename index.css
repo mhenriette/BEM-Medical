@@ -1,0 +1,287 @@
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100;200;300;400;500;600;700;800;900&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+        .body {
+            background-color: #fff5f0;
+            margin: 0px;
+        }
+        
+        .header {
+            display: flex;
+            justify-content: space-around;
+            margin: 0 59px 0 59px;
+            padding-top: 19px;
+        }
+        
+        .nav {
+            display: flex;
+            align-items: center;
+        }
+        
+        .list-items {
+            display: flex;
+            list-style-type: none;
+        }
+        
+        .nav__link {
+            text-decoration: none;
+            margin-inline-start: 2rem;
+            font-family: 'Nunito Sans', sans-serif;
+            font-weight: bold;
+            font-size: 14px;
+            color: #737373;
+        }
+        
+        .buttons {
+            display: flex;
+            align-items: center;
+        }
+        
+        .buttons--placespacebtn {
+            margin-inline-start: 6rem;
+        }
+        /* .button:last-child {
+    background-color: #1BA0AB;
+    color: white;
+} */
+        
+        .button {
+            font-family: 'Nunito Sans', sans-serif;
+            font-weight: bold;
+            font-size: 14px;
+            color: #1BA0AB;
+            text-decoration: none;
+            padding: 10px 30px 10px 30px;
+            border-radius: 10px;
+            margin-inline-end: 1rem;
+        }
+        
+        .button::after {
+            content: \2192;
+            color: white;
+        }
+        
+        .medpage {
+            /* margin-block-start: 10rem;
+    margin-inline-start: 4rem; */
+            block-size: 100vh;
+            display: flex;
+            padding-inline-start: 5rem;
+            align-content: center;
+        }
+        
+        .medpage--welcomepage {
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        .medpage__welcome {
+            font-family: 'Nunito Sans', sans-serif;
+            font-weight: bold;
+            font-size: 20px;
+            color: #1BA0AB;
+            margin: 0px;
+            padding-block-end: 1rem;
+        }
+        
+        .medpage__title {
+            color: #252B42;
+            /* font-size: 3rem; */
+            margin: 0px;
+            font-family: 'Nunito Sans', sans-serif;
+            padding-block-end: 1rem;
+            /* font-family: 'Montserrat'; */
+            font-style: normal;
+            font-weight: 800;
+            font-size: 58px;
+            line-height: 80px;
+            /* or 138% */
+            letter-spacing: 0.2px;
+        }
+        
+        .medpage__subtitle {
+            color: #737373;
+            font-weight: 500;
+            font-size: 20px;
+            margin: 0px;
+            padding-block-end: 1rem;
+        }
+        
+        .button--colorbackground {
+            background-color: #1BA0AB;
+            color: white;
+        }
+        
+        .button--placeborder {
+            border-style: solid;
+            border-width: thin;
+        }
+        
+        .medpage--experts {
+            background-color: white;
+            flex-direction: row;
+            justify-content: space-around;
+            padding: 3rem;
+            align-items: center;
+        }
+        
+        .hero-picture {
+            inline-size: 90%;
+        }
+        
+        .medpage__lineblock {
+            inline-size: 20%;
+            /* background-color: red; */
+            border-width: thick;
+            border: solid;
+            border-color: #e74040;
+            justify-items: start;
+            margin: 0px;
+        }
+        
+        .medpage__title--experts {
+            font-size: 2rem;
+        }
+        
+        .button-section {
+            padding: 0px;
+            font-size: 20px;
+        }
+        
+        .medpage--ourteam {
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            justify-items: center;
+            padding-inline-start: 8rem;
+            padding-block-end: 10rem;
+        }
+        
+        .medpage__title--smallfont {
+            font-size: 3rem;
+        }
+        
+        .medpage__cards {
+            display: flex;
+            align-items: center;
+            justify-items: center;
+            margin-block-start: 3rem;
+        }
+        
+        .card {
+            background-color: white;
+            inline-size: min-content;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+            padding-block-end: 1rem;
+            margin-inline-end: 2rem;
+            font-family: 'Nunito Sans', sans-serif;
+        }
+        
+        .card__name {
+            font-size: 20px;
+            color: #252B42;
+            font-weight: bold;
+        }
+        
+        .card__career {
+            color: #737373;
+        }
+        
+        .card__icons {
+            color: #1BA0AB;
+        }
+        
+        .medpage--footer {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding-inline-start: 0;
+        }
+        
+        .medpage__title--footer {
+            font-size: 50px;
+            font-weight: 800;
+            margin: 0px;
+        }
+        
+        .medpage__subtitle--footer {
+            text-align: center;
+        }
+        
+        .buttons--footer {
+            align-items: initial;
+        }
+        
+        .buttons__input {
+            padding-inline-end: 15rem;
+            background: #F9F9F9;
+            border: 1px solid #E6E6E6;
+            border-radius: 5px;
+            padding-left: 1rem;
+            font-weight: bold;
+        }
+        
+        .button--footer {
+            background: #1BA0AB;
+            border: 1px solid #E6E6E6;
+            border-radius: 0px 5px 5px 0px;
+            color: white;
+        }
+        
+        @media only screen and (max-width: 480px) {
+            .header {
+                margin: 0px;
+            }
+            .list-items {
+                display: none;
+            }
+            .buttons--placespacebtn {
+                margin: 0px;
+            }
+            .medpage--welcomepage {
+                padding: 0px;
+                align-items: center;
+            }
+            .medpage__title {
+                text-align: start;
+                font-size: 40px;
+            }
+            .medpage--ourteam {
+                flex-direction: column;
+            }
+            .medpage--ourteam {
+                padding-inline-start: 1rem;
+                padding-block-end: 100rem;
+            }
+            .medpage-cards {
+                flex-direction: column;
+            }
+            .card {
+                margin-block-end: 5rem;
+            }
+            .medpage--footer {
+                align-items: start;
+            }
+            .medpage__subtitle--footer {
+                text-align: start;
+            }
+            .buttons__input {
+                padding-inline-end: 0px;
+            }
+        }
+        
+        @media only screen and (max-width: 768px) {
+            .header {
+                margin: 0px;
+            }
+            .list-items {
+                display: none;
+            }
+            .buttons--placespacebtn {
+                margin: 0px;
+            }
+        }
